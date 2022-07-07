@@ -1,11 +1,14 @@
 package com.example.testapp
 
+import com.example.testapp.model.Pet
+
 object Constants {
     const val SPICES : String= "species"
     const val RACE : String = "race"
     const val NAME : String = "name"
     const val AGE : String = "age"
     const val PICTURE : String = "picture"
+    const val BASE_URL : String = "https://jsonplaceholder.typicode.com/"
 
     fun createPets() : ArrayList<Pet>{
 
